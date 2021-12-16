@@ -6,14 +6,16 @@ public class Question
 		private String option2;
 		private String option3;
 		private String option4;
+		private String answer;
 		
-		public Question(String a, String o1, String o2, String o3, String o4)
+		public Question(String a, String o1, String o2, String o3, String o4, String an)
 		{
 			asking = a;
 			option1 = o1;
 			option2 = o2;
 			option3 = o3;
 			option4 = o4;
+			answer = an;
 		}
 
 		public String getAsking()
@@ -64,5 +66,15 @@ public class Question
 		public void setOption4(String option4)
 			{
 				this.option4 = option4;
+			}
+
+		public String getAnswer()
+			{
+				return answer;
+			}
+
+		public void setAnswer(String answer)
+			{
+				this.answer = answer;
 			}
 	}

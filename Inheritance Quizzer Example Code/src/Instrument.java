@@ -1,8 +1,6 @@
 
 public class Instrument
 	{
-		protected String type = "Instrument";
-		
 		public void makeNoise()
 		{
 			System.out.println("\"Make noise\"");

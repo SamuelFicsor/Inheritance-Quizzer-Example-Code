@@ -1,8 +1,6 @@
 
 public class Guitar extends Instrument
 	{
-		protected String type = "Guitar";
-		
 		public void makeNoise()
 		{
 			System.out.println("ebeosbfoesmfemfsenfadflaksjfh");
